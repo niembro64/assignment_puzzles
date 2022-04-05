@@ -1,0 +1,13 @@
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\bin\Debug\netcoreapp3.1\assignment_puzzles.exe
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\bin\Debug\netcoreapp3.1\assignment_puzzles.deps.json
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\bin\Debug\netcoreapp3.1\assignment_puzzles.runtimeconfig.json
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\bin\Debug\netcoreapp3.1\assignment_puzzles.runtimeconfig.dev.json
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\bin\Debug\netcoreapp3.1\assignment_puzzles.dll
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\bin\Debug\netcoreapp3.1\assignment_puzzles.pdb
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\obj\Debug\netcoreapp3.1\assignment_puzzles.csprojAssemblyReference.cache
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\obj\Debug\netcoreapp3.1\assignment_puzzles.AssemblyInfoInputs.cache
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\obj\Debug\netcoreapp3.1\assignment_puzzles.AssemblyInfo.cs
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\obj\Debug\netcoreapp3.1\assignment_puzzles.csproj.CoreCompileInputs.cache
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\obj\Debug\netcoreapp3.1\assignment_puzzles.dll
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\obj\Debug\netcoreapp3.1\assignment_puzzles.pdb
+C:\Users\nieme\Documents\CodingDojo\CSharpStack2022\11.1\assignment_puzzles\obj\Debug\netcoreapp3.1\assignment_puzzles.genruntimeconfig.cache
