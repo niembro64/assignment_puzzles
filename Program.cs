@@ -9,33 +9,33 @@ namespace assignment_puzzles
     {
       int[] a;
       a = RandomArray();
-      p(a);
+      h.p(a);
 
       ////////////////
 
-      p("\n");
-      p("\n");
-      p(GetMax(a));
-      p("\n");
-      p(GetMin(a));
-      p("\n");
-      p(GetSum(a));
-      p("\n");
-      p("\n");
-      p($"Coin Toss Result : {TossCoin()}");
-      p("\n");
-      p($"Heads Ratio : {TossCoinMultiple(5)}");
-      p("\n");
-      p($"Heads Ratio : {TossCoinMultiple(9)}");
-      p("\n");
-      p($"Heads Ratio : {TossCoinMultiple(55)}");
-      p("\n");
-      p("\n");
-      p("printing new list:");
-      p(Names());
-      p("\n");
-      p("\n");
-      p(RemoveBig(Names()));
+      h.p("\n");
+      h.p("\n");
+      h.p(GetMax(a));
+      h.p("\n");
+      h.p(GetMin(a));
+      h.p("\n");
+      h.p(GetSum(a));
+      h.p("\n");
+      h.p("\n");
+      h.p($"Coin Toss Result : {TossCoin()}");
+      h.p("\n");
+      h.p($"Heads Ratio : {TossCoinMultiple(5)}");
+      h.p("\n");
+      h.p($"Heads Ratio : {TossCoinMultiple(9)}");
+      h.p("\n");
+      h.p($"Heads Ratio : {TossCoinMultiple(55)}");
+      h.p("\n");
+      h.p("\n");
+      h.p("printing new list:");
+      h.p(Names());
+      h.p("\n");
+      h.p("\n");
+      h.p(RemoveBig(Names()));
 
     }
     public static Random rand = new Random();
@@ -57,12 +57,12 @@ namespace assignment_puzzles
       int nc = n.Count;
       for (int i = 0; i < nc; i++)
       {
-        p($"i : {i} | n.Count: {n.Count} \n");
+        h.p($"i : {i} | n.Count: {n.Count} \n");
         r = rand.Next(0, n.Count);
         n2.Add(n[r]);
         n.RemoveAt(r);
       }
-      p("\n");
+      h.p("\n");
 
       return n2;
     }
@@ -103,46 +103,13 @@ namespace assignment_puzzles
 
     public static string TossCoin()
     {
-      //   p("Tossing a Coin!");
+      //   h.p("Tossing a Coin!");
       string result = "";
       result = rand.Next(0, 2) % 2 == 1 ? "Heads" : "Tails";
-      //   p(result);
+      //   h.p(result);
       return result;
     }
 
-    public static void p(double a)
-    {
-      Console.Write(a);
-    }
-    public static void p(string a)
-    {
-      Console.Write(a);
-    }
-    public static void p(int a)
-    {
-      Console.Write(a);
-    }
-    public static void p(int[] a)
-    {
-      for (int i = 0; i < a.Length; i++)
-      {
-        Console.Write($"{a[i]} ");
-      }
-    }
-    public static void p(List<string> a)
-    {
-      for (int i = 0; i < a.Count; i++)
-      {
-        Console.Write($"{a[i]} ");
-      }
-    }
-    public static void p(string[] a)
-    {
-      for (int i = 0; i < a.Length; i++)
-      {
-        Console.Write($"{a[i]} ");
-      }
-    }
     public static int[] RandomArray()
     {
       int[] a = new int[10];
